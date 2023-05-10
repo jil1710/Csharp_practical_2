@@ -10,6 +10,11 @@
         this.customer_name = customer_name;
     }
 
+    /*
+        PrintInfo() method have just simple work just print the Customer Bank Details such has bank name, customer account number
+        customer name ... and it's return type is void because it just print the details not return so void PrintInfo() && it's access
+        modifier is public bcoz it access anywhere within or outside of theire scope!
+    */
     public void PrintInfo()
     {
         Console.WriteLine("\n =================== Customer Bank Details ===================");
